@@ -5,20 +5,20 @@ internal class CharList
         //Stadt von Sambra
         class Stats
         {
-            int Name =
-            int Hp =
-            int Magic =
-            int Attack =
-            int Defence =
-            int Geschicklichkeit =
-            int Strength =
-            int Speed =
-            int Luck =
-            int Intelligence =
-            int Race =
-            int Agression =
-            int Friendly =
-            int Age =
+            string Name;
+            int Hp;
+            int Magic; 
+            int Attack; 
+            int Defence; 
+            int Geschicklichkeit; 
+            int Strength;
+            int Speed;
+            int Luck;
+            int Intelligence; 
+            string Race;
+            string Agression; 
+            string Friendly;
+            int Age;
 
         }
 
@@ -1081,11 +1081,11 @@ internal class CharList
             Age =
             
             }
-        class Enemy
+        class Enemy_Boss;
         {   
-            Name =
-            Hp =
-            Magic =
+            Name = "Baldur";
+            Hp = 
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1094,34 +1094,34 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 10
+            Friendly = 0
+            Age = 
             
             }
-        class Enemy
+        class Enemy_Boss;
         {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
+            Name = "Hippogriff";
+            Hp = 19
+            Magic = 0 //unklar
+            Attack = 3
+            Defence = 11
+            Geschicklichkeit = 14
+            Strength = 20
+            Speed = 40
+            Luck = 5
+            Intelligence = 2
+            Race = 0 //unklar, nicht besprochen
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+        class Enemy_Boss;
         {   
-            Name =
+            Name = "Invisible Stalker";
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1130,16 +1130,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+        class Enemy_middle;
         {   
-            Name =
+            Name = "Giant Spider"
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1148,16 +1148,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+             Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+        class Enemy_middle;
         {   
-            Name =
+            Name = "Goblin Mother"
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1166,16 +1166,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+        class Enemy_middle;
         {   
-            Name =
+            Name = "Gladiator";
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1184,16 +1184,34 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
+
+            }
+        class Enemy_middle;
+        {   
+            Name = "Gnoll";
+            Hp =
+            Magic = 0 //unklar
+            Attack =
+            Defence =
+            Geschicklichkeit =
+            Strength =
+            Speed =
+            Luck =
+            Intelligence =
+            Race =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+        class Enemy_middle;
         {   
-            Name =
-            Hp =
-            Magic =
+            Name = "Goblin";
+            Hp = 
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1202,16 +1220,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+        class Enemy_low;
         {   
-            Name =
+            Name = "Slime";
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1220,16 +1238,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
-            Name =
+            Name = "Ratte";
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1238,16 +1256,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+             Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
-            Name =
+            Name = "Tiger";
             Hp =
-            Magic =
+            Magic = 0; //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1256,16 +1274,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+             Agression = 0; //zufall
+            Friendly = 0; //zufall
+            Age = 0; //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
-            Name =
+            Name = "Zombie";
             Hp =
-            Magic =
+            Magic = 0; //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1274,16 +1292,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0; //zufall
+            Friendly = 0; //zufall
+            Age = 0; //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
-            Name =
+            Name = "Geier";
             Hp =
-            Magic =
+            Magic = 0; //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1292,16 +1310,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0; //zufall
+            Friendly = 0; //zufall
+            Age = 0; //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
             Name =
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1310,16 +1328,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
             Name =
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1328,16 +1346,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+             Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
             Name =
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1346,16 +1364,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+             Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
             Name =
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1364,16 +1382,16 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
-        class Enemy
+            class Enemy_low;
         {   
             Name =
             Hp =
-            Magic =
+            Magic = 0 //unklar
             Attack =
             Defence =
             Geschicklichkeit =
@@ -1382,624 +1400,10 @@ internal class CharList
             Luck =
             Intelligence =
             Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
-            
-            }
-        class Enemy
-        {   
-            Name =
-            Hp =
-            Magic =
-            Attack =
-            Defence =
-            Geschicklichkeit =
-            Strength =
-            Speed =
-            Luck =
-            Intelligence =
-            Race =
-            Agression =
-            Friendly =
-            Age =
+            Agression = 0 //zufall
+            Friendly = 0 //zufall
+            Age = 0 //zufall
             
             }
 
-
-    
 }
