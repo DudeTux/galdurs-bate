@@ -24,6 +24,13 @@ namespace app
                 Console.WriteLine("Sehr schön Willst du den Prolog Regeln Skippen (basic DnD)");
 
                 Console.ReadLine();
+
+                Console.Writeline("Ein Wildes Rattatatatttttaaaaa erscheint") 
+
+                Console.WriteLine("Wähle deine Aktion")
+
+
+
             }
             
 
