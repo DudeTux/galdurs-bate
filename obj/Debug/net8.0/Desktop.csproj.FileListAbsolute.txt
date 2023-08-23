@@ -1,0 +1,14 @@
+C:\Users\mwoerle\.vscode\Code1\bin\Debug\net8.0\Desktop.exe
+C:\Users\mwoerle\.vscode\Code1\bin\Debug\net8.0\Desktop.deps.json
+C:\Users\mwoerle\.vscode\Code1\bin\Debug\net8.0\Desktop.runtimeconfig.json
+C:\Users\mwoerle\.vscode\Code1\bin\Debug\net8.0\Desktop.dll
+C:\Users\mwoerle\.vscode\Code1\bin\Debug\net8.0\Desktop.pdb
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.AssemblyInfoInputs.cache
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.AssemblyInfo.cs
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.csproj.CoreCompileInputs.cache
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.dll
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\refint\Desktop.dll
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.pdb
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\Desktop.genruntimeconfig.cache
+C:\Users\mwoerle\.vscode\Code1\obj\Debug\net8.0\ref\Desktop.dll
