@@ -33,7 +33,7 @@ internal class Program
       {
 
          Console.WriteLine("Welche Charaktereigenschaft möchtest du verbessern?");
-         string Answer= console.Read();
+         string Answer= console.ReadLine();
          LvlUp(Answer);      
 
       }  
