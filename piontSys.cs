@@ -4,7 +4,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-      
+      choose();
+   }
+
             int Hp;
             int Magic; 
             int Attack; 
@@ -77,8 +79,4 @@ internal class Program
          }
 
       }
-
-
-
-   	}
 }
