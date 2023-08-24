@@ -38,7 +38,7 @@ internal class Program
 
       }  
 
-      static void LvlUp(int wert)
+      static void LvlUp(string wert)
       {
 
          if (wert = "Hp")
