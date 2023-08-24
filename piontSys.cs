@@ -1,8 +1,9 @@
 using System;
 
-namespace lvlPoints{
-
-   public static class Programm{
+internal class Program
+{
+    private static void Main(string[] args)
+    {
       
             int Hp;
             int Magic; 
@@ -13,36 +14,71 @@ namespace lvlPoints{
             int Speed;
             int Luck;
             int Intelligence; 
-            string Race;
-            string Agression; 
-            string Friendly;
-            int Age;
 
-      public static void PointsLvlUp()
+
+            int BetterHp = Hp + (Hp *0.05);
+            int BetterMagic = Magic + (Magic *0.05);
+            int BetterAttack = Attack + (Attack *0.05);
+            int BetterDefense = Defense + (Defense *0.05);
+            int BetterGeschicklichkeit = Geschicklichkeit + (Geschicklichkeit *0.05);
+            int BetterStrength = Strength + (Strength *0.05);
+            int BetterSpeed = Speed + (Speed *0.05);
+            int BetterLuck = Luck + (Luck *0.05);
+            int BetterIntelligence = Intelligence + (Intelligence *0.05);
+
+
+      static void choose()
       {
 
          Console.WriteLine("Welche Charaktereigenschaft möchtest du verbessern?");
-         var Answer = console.Read();
-         GetType();
+         string Answer= console.Read();
+         LvlUp(Answer);      
 
-      }   
+      }  
 
-      public static void GetType()
+      static void LvlUp(int wert)
       {
 
-         var Type = answer.typeOf();
-         
-
-      }
-
-      public static string A_F(string wert)
-      {
-
-         if (wert == )
+         if (wert = "Hp")
          {
-            wert = ;
+            Hp = BetterHp;
          }
-         
+         if (wert = "Magie")
+         {
+            Magic = BetterMagic;
+         }
+         if (wert = "Attacke")
+         {
+            Attack = BetterAttack;
+         }
+         if (wert = "Verteigigung")
+         {
+            Defence = BetterDefense;
+         }
+         if (wert = "Geschicklichkeit")
+         {
+            Geschicklichkeit = BetterGeschicklichkeit;
+         }
+         if (wert = "Stärke")
+         {
+            Strength = BetterStrength;
+         }
+         if (wert = "Geschwindigkeit")
+         {
+            Speed = BetterSpeed;
+         }
+         if (wert = "Glück")
+         {
+            Luck = BetterLuck;
+         }
+         if (wert = "Intelligenz")
+         {
+            Intelligence = BetterIntelligence;
+         }
+
       }
-   }
+
+
+
+   	}
 }
