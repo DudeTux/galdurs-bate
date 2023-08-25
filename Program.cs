@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿using Systeming 
+=======
+using System;
+>>>>>>> d8680819ffd6a49b8c7e60341b7ac78926ea2d7c
 
 namespace app
 {
