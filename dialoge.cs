@@ -7,7 +7,7 @@ namespace dialoge
     {
       dialoge();
    }
-   static void dialoge()
+   public class dialoge()
    {
 
       static void GegnerBegegnung()
@@ -147,9 +147,7 @@ namespace dialoge
                   Console.WriteLine("Du nimmst keine der Objekte an dich");
                }
             }
-
          }
-
       }
    }
 }
