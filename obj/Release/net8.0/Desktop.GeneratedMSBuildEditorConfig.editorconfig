@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Desktop
-build_property.ProjectDir = /home/ll/galdurs-bate/
+build_property.ProjectDir = C:\Users\llindermayr\Documents\galdurs-bate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
