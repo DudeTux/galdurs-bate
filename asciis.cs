@@ -3,6 +3,7 @@ using System;
 namespace asciis
 {
     
+    
     public class AsciiSchluessel()
     {
         Console.WriteLine("..:*?%S%;??*+*?*;:......................");
@@ -29,7 +30,62 @@ namespace asciis
     
     public class AsciiTrank()
     {
-        
+        Console.WriteLine("              .:::.           ");         
+        Console.WriteLine("            =----==*:         ");         
+        Console.WriteLine("          ..=+***###          ");         
+        Console.WriteLine("      .:=+:.:**##%%=          ");         
+        Console.WriteLine("     .===+-.:+##%##+-         ");         
+        Console.WriteLine("      --: .-..:-====*-        ");         
+        Console.WriteLine("           .-====+++-.        ");         
+        Console.WriteLine("           .:===++++.         ");         
+        Console.WriteLine("         .:::.:::-=+++-       ");         
+        Console.WriteLine("       .::.....:::-====+-     ");         
+        Console.WriteLine("      :.::.::::::::-==-=+=    ");         
+        Console.WriteLine("     ::-::::::::.:::-==+**-   ");         
+        Console.WriteLine("     :-==---::::::-==+****-   ");        
+        Console.WriteLine("     .-=======-:-==++****+.   ");         
+        Console.WriteLine("      :===+======+++****+.    ");         
+        Console.WriteLine("       .-+++++++++****+-      ");         
+        Console.WriteLine("          -+*********:        ");         
+        Console.WriteLine("          -=+++++++++-        ");         
+        Console.WriteLine("          --..    .:--        ");                                                
+    }
+
+    public class AsciiSchwert()
+    {
+        Console.WriteLine("                                =%=   ");      
+        Console.WriteLine("                       .%*            ");
+        Console.WriteLine("                      .##             ");
+        Console.WriteLine("                      ##              ");
+        Console.WriteLine("                     *#.              ");
+        Console.WriteLine("               -+=:.=+:               ");
+        Console.WriteLine("               .#-=*+#-               ");
+        Console.WriteLine("               .#*=#=:.               ");
+        Console.WriteLine("                .*##**   *#*-         ");
+        Console.WriteLine("                -#*: .  *%%%#.        ");
+        Console.WriteLine("               :##.    +%%%#.         ");
+        Console.WriteLine("              .#%-    =%%%*           ");
+        Console.WriteLine("              *%=    :*%%*            ");
+        Console.WriteLine("             +%+    -*=:-             ");
+        Console.WriteLine("            =%#    :%%%+              ");
+        Console.WriteLine("           :%%.   :%%%+               ");
+        Console.WriteLine("          .%@:   :%%%+                ");
+        Console.WriteLine("          #@=   :%%%+                 ");
+        Console.WriteLine("         *@+   :%%%+                  ");
+        Console.WriteLine("        =@*   :%%%+                   ");
+        Console.WriteLine("       -%#   :%%%+                    ");
+        Console.WriteLine("      .##.  :%%%=                     ");
+        Console.WriteLine("      *#.  :%%%=                      ");
+        Console.WriteLine("     +#:  :%%%=                       ");
+        Console.WriteLine("    =%-  :%%%-                        ");
+        Console.WriteLine("   -#+  :%%%-                         ");
+        Console.WriteLine("  .%#  :%%%-                          ");
+        Console.WriteLine("  =*. .%%%:                           ");
+    }
+
+    public class AsciiSchwert()
+    {
+
 
     }
 }
