@@ -1,0 +1,149 @@
+using System;
+
+namespace classes 
+{
+
+    class Stats
+    {
+        string Name;
+        int Hp;
+        int Magic; 
+        int Attack; 
+        int Defence; 
+        int Geschicklichkeit; 
+        int Strength;
+        int Speed;
+        int Luck;
+        int Intelligence; 
+        string Race;
+        string Agression; 
+        string Friendly;
+        int Age;
+    }
+    public class assassine 
+    {
+        Name =  ""; //individuell
+        Hp = 
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+    public class magier
+    {
+        Name = ""; //individuell
+        Hp =
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+    public class dieb
+    {
+        Name = ""; //individuell
+        Hp =
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+    public class low_bob
+    {
+        Name = ""; //individuell
+        Hp =
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+    public class sschwertkämpfer
+    {
+        Name = ""; //individuell
+        Hp =
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+    public class elf
+    {
+        Name = ""; //individuell
+        Hp =
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+    public class zwerg
+    {
+        Name = ""; //individuell
+        Hp =
+        Magic =
+        Attack =
+        Defence =
+        Geschicklichkeit =
+        Strength =
+        Speed =
+        Luck =
+        Intelligence =
+        Race =
+        Agression =
+        Friendly =
+        Age = ""; //individuell
+    }
+
+}
