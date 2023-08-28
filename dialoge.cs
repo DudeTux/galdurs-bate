@@ -1,7 +1,8 @@
 using System;
 
-internal class Program
+namespace dialoge
 {
+
     private static void Main(string[] args)
     {
       dialoge();
