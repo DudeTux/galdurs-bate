@@ -10,10 +10,10 @@ namespace using
         schluessel();
 
     }
-    static public void schluessel()
+    static public string schluessel()
     {
 
-        AsciiSchluessel();
+        return AsciiSchluessel;
 
     }
 }

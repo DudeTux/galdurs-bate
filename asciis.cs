@@ -26,6 +26,7 @@ namespace asciis
         ..............................,;?*+:....
         ................................,;:.....
         ...,,,;:,::.............................";
+
         Console.WriteLine(Schluessel);
     }
     
@@ -83,7 +84,8 @@ namespace asciis
             =%-  :%%%-                        
            -#+  :%%%-                         
           .%#  :%%%-                          
-          =*. .%%%:      ";  
+          =*. .%%%:      "; 
+
           Console.WriteLine(Schwert);                  
     }
 
@@ -109,5 +111,6 @@ namespace asciis
                                            :=*= 
                                             ..  ";
         Console.WriteLine(Axt);
+        
     }
 }
