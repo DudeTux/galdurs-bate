@@ -20,129 +20,132 @@ namespace classes
         string Friendly;
         int Age;
     }
+
+    int freePoints = 20; //zum verteilen egal auf welche Stats
+
     public class assassine 
     {
         Name =  ""; //individuell
-        Hp = 
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 7;
+        Magic = 8;
+        Attack = 8;
+        Defence = 6;
+        Geschicklichkeit = 12;
+        Strength = 8;
+        Speed = 10;
+        Luck = 9;
+        Intelligence = 9;
+        Race = 8;
+        Agression = 8;
+        Friendly = 8;
         Age = ""; //individuell
     }
 
     public class magier
     {
         Name = ""; //individuell
-        Hp =
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 8;
+        Magic = 15;
+        Attack = 8;
+        Defence = 7;
+        Geschicklichkeit = 8;
+        Strength = 6;
+        Speed = 8;
+        Luck = 8;
+        Intelligence = 10;
+        Race = 8;
+        Agression = 8;
+        Friendly = 8;
         Age = ""; //individuell
     }
 
     public class dieb
     {
         Name = ""; //individuell
-        Hp =
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 8;
+        Magic = 8;
+        Attack = 8;
+        Defence = 8;
+        Geschicklichkeit = 8;
+        Strength = 6;
+        Speed = 9;
+        Luck = 12;
+        Intelligence = 8;
+        Race = 8;
+        Agression = 8;
+        Friendly = 8;
         Age = ""; //individuell
     }
 
     public class low_bob
     {
         Name = ""; //individuell
-        Hp =
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 0;
+        Magic = 0;
+        Attack = 0;
+        Defence = 0;
+        Geschicklichkeit = 0;
+        Strength = 0;
+        Speed = 0;
+        Luck = 0;
+        Intelligence = 0;
+        Race = 0;
+        Agression = 0;
+        Friendly = 0;
         Age = ""; //individuell
     }
 
-    public class sschwertkämpfer
+    public class schwertkämpfer
     {
         Name = ""; //individuell
-        Hp =
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 8;
+        Magic = 6;
+        Attack = 11;
+        Defence = 9;
+        Geschicklichkeit = 8;
+        Strength = 10;
+        Speed = 8;
+        Luck = 8;
+        Intelligence = 8;
+        Race = 8;
+        Agression = 8;
+        Friendly = 8;
         Age = ""; //individuell
     }
 
     public class elf
     {
         Name = ""; //individuell
-        Hp =
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 7;
+        Magic = 10;
+        Attack = 9;
+        Defence = 7;
+        Geschicklichkeit = 8;
+        Strength = 8;
+        Speed = 8;
+        Luck = 8;
+        Intelligence = 12;
+        Race = 8;
+        Agression = 8;
+        Friendly = 8;
         Age = ""; //individuell
     }
 
     public class zwerg
     {
         Name = ""; //individuell
-        Hp =
-        Magic =
-        Attack =
-        Defence =
-        Geschicklichkeit =
-        Strength =
-        Speed =
-        Luck =
-        Intelligence =
-        Race =
-        Agression =
-        Friendly =
+        Hp = 8;
+        Magic = 8;
+        Attack = 9;
+        Defence = 12;
+        Geschicklichkeit = 6;
+        Strength = 10;
+        Speed = 8;
+        Luck = 8;
+        Intelligence = 8;
+        Race = 8;
+        Agression = 8;
+        Friendly = 8;
         Age = ""; //individuell
     }
 
