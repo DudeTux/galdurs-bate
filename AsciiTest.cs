@@ -7,7 +7,13 @@ namespace using
     public static void Main(string[] args)
     {
         
-        Console.Writeline(asciiTrank);
+        schluessel();
+
+    }
+    static public void schluessel()
+    {
+
+        AsciiSchluessel();
 
     }
 }
