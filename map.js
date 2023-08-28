@@ -11,7 +11,7 @@ var gameData = {
     map : {
       'BeginnersBastion': {
         firstVisit: true,
-        displayName: 'Beginner's Bastion',
+        displayName: "Beginner's Bastion",
         description: '',
         items: {
             Chest: {
