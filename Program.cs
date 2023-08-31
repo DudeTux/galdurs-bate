@@ -2,12 +2,15 @@ using System;
 using Class1;
 using asciis;
 using Inventory;
+using PublicInit;
 
 
 namespace Galdurs_Bate
 {
     public static class Program
     {
+        public static Class1.Player1 Player = new Class1.Player();
+
         public static void Main(string[] args)
         {
             Random random = new Random();
@@ -34,7 +37,11 @@ namespace Galdurs_Bate
             Monster[8] = new Class1.Enemy_low_Skorpion();
             Monster[9] = new Class1.Enemy_low_Seepferdchen();
 
-            Class1.Player Player = new Class1.Player();
+            
+           
+            
+
+            
             
             int MonsterD()
             {
@@ -230,9 +237,9 @@ namespace Galdurs_Bate
                     }
                     if (ConsoleRL1 == "3")
                     {               
-                        ASKII askiiInstance = new ASKII();
+                        Inventory.ASKII.ASKIII();
                     
-
+                        goto Anker1;
                     }
 
                     if (ConsoleRL1 == "4")
