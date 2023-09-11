@@ -1,0 +1,76 @@
+using System;
+
+namespace KarteiKart
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Karteikarten One = new Karteikarten();
+            One.NameKK = "Längster Fluss";
+            One.Frage = "Welcher Fluss ist der längste Fluss der Welt?";
+            One.Antwort = "Der Nil";
+
+            Karteikarten Two = new Karteikarten();
+            Two.NameKK = "Gürteltiere";
+            Two.Frage = "Was sind Gürteltiere?";
+            Two.Antwort = "Kugelsicher";
+
+            Karteikarten Three = new Karteikarten();
+            Three.NameKK = "Nationalflaggen";
+            Three.Frage = "Welche Nationalflagge hat die meisten Farben auf der Welt?";
+            Three.Antwort = "Die Belize";
+
+            Karteikarten Four = new Karteikarten();
+            Four.NameKK = "Tweets";
+            Four.Frage = "Wie viele Tweets werden pro Sekunde durchschnittlich verschickt?";
+            Four.Antwort = "9310";
+
+            Karteikarten Five = new Karteikarten();
+            Five.NameKK = "Währung";
+            Five.Frage = "Wie viel der weltweiten Währung ist digital?";
+            Five.Antwort = "92%";
+
+            One.AskQuestion();
+            Two.AskQuestion();
+            Three.AskQuestion();
+            Four.AskQuestion();
+            Five.AskQuestion();
+        }
+
+        public class Karteikarten
+        {
+            public string NameKK { get; set; }
+            public string Frage { get; set; }
+            public string Antwort { get; set; }
+
+            public void AskQuestion()
+            {
+                string answer = "Nix";
+                int ver = 3;
+
+                Console.WriteLine("Das ist die Karteikarte " + NameKK);
+            pointWrongAns:
+                Console.WriteLine("Die Frage lautet: " + Frage + " Wie lautet die Antwort?");
+                answer = Console.ReadLine();
+                if (answer == Antwort)
+                {
+                    Console.WriteLine("Diese Antwort ist richtig!");
+                }
+                else
+                {
+                    ver--;
+                    Console.WriteLine("Diese Antwort ist falsch. Du hast noch " + ver + " Versuche.");
+                    if (ver == 0)
+                    {
+                        Console.WriteLine("Du hast leider alle Versuche aufgebraucht.");
+                    }
+                    else
+                    {
+                        goto pointWrongAns;
+                    }
+                }
+            }
+        }
+    }
+}
